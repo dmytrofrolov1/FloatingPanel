@@ -39,7 +39,7 @@ jobs:
   - script: xcodebuild clean test -scheme FloatingPanel -workspace FloatingPanel.xcworkspace -destination 'platform=iOS Simulator,OS=12.2,name=iPhone X'
     osx_image: xcode10.3
     name: "iPhone X (iOS 12.2)"
-  - script: xcodebuild clean test -scheme FloatingPanel -workspace FloatingPanel.xcworkspace -destination 'platform=iOS Simulator,OS=13.0,name=iPhone Xs'
+  - script: xcodebuild clean test -scheme FloatingPanel -workspace FloatingPanel.xcworkspace -destination 'platform=iOS Simulator,OS=13.0,name=iPhone 11'
     osx_image: xcode11
     name: "iPhone X (iOS 13.0)"
 
